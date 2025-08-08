@@ -39,39 +39,31 @@ A simple Command-Line Interface (CLI) application that allows users to save Bibl
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/bible-notes-cli.git
-Navigate into the project folder:
+   `git clone https://github.com/YOUR_USERNAME/bible-notes-cli.git`
 
-bash
-Copy
-Edit
+2. Navigate into the project folder:
+
 cd bible-notes-cli
 Run the app:
 
-bash
-Copy
-Edit
+
 node app.js add "John 3:16 - For God so loved the world..."
 Check notes.txt — it will contain the saved verse.
 
 📌 Example
-bash
-Copy
-Edit
+
 node app.js add "Psalm 23:1 - The Lord is my shepherd"
 Output:
 
-Copy
-Edit
+
 ✅ Verse saved successfully.
 Result in notes.txt:
 
-csharp
-Copy
-Edit
+
 John 3:16 - For God so loved the world...
 Psalm 23:1 - The Lord is my shepherd
-🛠 Upcoming Features
+
+## 🛠 Upcoming Features
 list command: show all saved verses
 
 delete command: remove a verse
@@ -80,9 +72,14 @@ Move to file-based JSON or real database (MongoDB/MySQL)
 
 Convert to REST API for frontend/mobile app
 
-👨‍💻 Author
-Jshua Adelere
-Backend Engineer in training | Faith-based Software Developer
-📌 LinkedIn
-🐦 Twitter
-💻 GitHub
+## 👨‍💻 Author
+- Joshua Adelere
+- Backend Engineer in training | Faith-based Software Developer
+- 📌 LinkedIn
+- 🐦 Twitter
+- 💻 GitHub
+
+## 🧠 Why I'm Building This
+I'm on a 6-month mission to master backend development using Node.js, JavaScript, and databases — starting from the ground up. I'm learning deeply, building intentionally, and documenting everything along the way.
+
+This is the first of many projects in my faith-based developer journey. ✝️
